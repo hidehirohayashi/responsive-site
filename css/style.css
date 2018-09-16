@@ -1,0 +1,92 @@
+@import url(https://fonts.google.com/?selection.family=M+PLUS+1p);
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #4c4c4c;
+  font-size: 1.4rem;
+  font-family: "M PLUS 1p", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #FFF7F5; }
+
+.text-center {
+  text-align: center; }
+
+@media (min-width: 768px) {
+  a:hover {
+    text-decoration: underline; } }
+.box {
+  position: relative; }
+
+.box p {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 5em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.6); }
+
+.box img {
+  width: 100%;
+  height: 500px; }
+
+@media (max-width: 768px) {
+  .box img {
+    width: 100%;
+    height: 250px; } }
+section {
+  padding: 60px 0; }
+  section .container {
+    width: 100%;
+    margin: auto; }
+
+h1 {
+  font-size: 3.2rem; }
+
+.container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around; }
+
+.menue-box {
+  -webkit-flex: 1;
+  flex: 1;
+  margin: 30px;
+  background-color: #54B503; }
+
+h2 {
+  height: 40px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  background-color: #DC3700;
+  font-size: 2rem;
+  color: white;
+  text-align: center; }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; } }
+footer {
+  background-color: #54B503;
+  padding: 10px 0;
+  text-align: center;
+  color: #FFF; }
+
+.mail {
+  border-spacing: 15px 0;
+  border-collapse: separate;
+  width: 60px;
+  height: 20px;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #DC3700;
+  border-radius: 10px;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=style.css.map */
